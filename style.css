@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Style */
+body {
+    line-height: 1.6;
+    color:black;    
+}
+
+body{
+    background-image: url(theme\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Header Section */
+header {
+    background-color:black;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    
+}
+
+header nav a {
+    color: goldenrod;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: gold;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+section h2 {
+    color:goldenrod;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+/* About Section */
+#about p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+/* Education Section */
+.education {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* Contact Section */
+#contact a {
+    color: black;
+    text-decoration: underline;
+}
+
+#contact a:hover {
+    color: #007BFF;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: black;
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav a {
+        margin: 0.5rem 0;
+    }
+}
